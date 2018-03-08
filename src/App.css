@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.image-upload {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  background-image: url('./icons/image-icon.svg');
+  background-size: 32px 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.image-grid {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
