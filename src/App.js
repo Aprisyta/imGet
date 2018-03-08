@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ResultBar from './ResultBar'
 import UploadImage from './UploadImage'
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <UploadImage />
+        <ResultBar />
       </div>
     );
   }

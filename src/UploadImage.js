@@ -35,10 +35,8 @@ class UploadImage extends Component {
     return (
       <div>
         <h2>Upload images of your face.</h2>
-        <form className="image-grid" onSubmit={this.upload}>
-          {
-            imageInputArr
-          }
+        <form onSubmit={this.upload}>
+          <div className="image-grid">{imageInputArr}</div>
           <div>
             <button type="submit">Submit</button>
           </div>
