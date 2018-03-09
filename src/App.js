@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import NavBar from './NavBar'
 import ResultBar from './ResultBar'
 import UploadImage from './UploadImage'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <UploadImage />
-        <ResultBar />
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className="App">
+      <NavBar />
+      <UploadImage />
+      <ResultBar />
+    </div>
+  );
 }
 
 export default App;
