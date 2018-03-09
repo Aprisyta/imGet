@@ -3,7 +3,7 @@
 To install the app do as the follows:
 
 git clone https://github.com/Aprisyta/MyReads.git
-cd MyReads
+cd imGet
 npm install
 npm start
 
